@@ -15,7 +15,7 @@
 %     \usepackage[final]{neurips_2020}
 
 % to avoid loading the natbib package, add option nonatbib:
-\usepackage[preprint]{neurips_2020}
+\usepackage[final]{neurips_2020}
 \usepackage[utf8]{inputenc} % allow utf-8 input
 \usepackage[T1]{fontenc}    % use 8-bit T1 fonts
 \usepackage{hyperref}       % hyperlinks
@@ -24,6 +24,7 @@
 \usepackage{amsfonts}       % blackboard math symbols
 \usepackage{nicefrac}       % compact symbols for 1/2, etc.
 \usepackage{microtype}      % microtypography
+\usepackage{graphicx}
 
 \title{Author Name Disambiguation Algorithm}
 
@@ -110,6 +111,13 @@ paper is also written by the authors the same name, then it is very likely that 
 
 \section{Testing}
 
+We plan to use the evaluation method of the competition based on the Macro Pairwise-F1.
 
+\begin{figure}
+     \centering
+     % \fbox{\rule[-.5cm]{0cm}{4cm} \rule[-.5cm]{4cm}{0cm}}
+     \includegraphics[scale=0.5]{31568965826.png}
+     \caption{Evaluation Method}
+\end{figure}
 
 \end{document}
